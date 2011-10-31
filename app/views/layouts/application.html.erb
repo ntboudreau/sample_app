@@ -8,11 +8,13 @@
 <body>	
 	<div class="container">
 		<%= render 'layouts/header' %>
-		<section class="round">
+		<section class="round span-17">
 			<%= yield %>
 		</section>
 		<%= render 'layouts/footer' %>
+		<div class="span-18">
 		<%= debug(params) if Rails.env.development? %>
+		</div>
 	</div>
 </body>
 </html>	

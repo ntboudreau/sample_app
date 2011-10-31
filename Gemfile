@@ -1,8 +1,8 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.1.0'
-
 gem 'sqlite3'
+gem 'gravatar_image_tag'
 
 group :development do
 	gem 'rspec-rails'
@@ -13,6 +13,7 @@ group :test do
 	gem 'rspec'
 	gem 'webrat'
 	gem 'spork'
+	gem 'factory_girl_rails'
 end
 
 # Gems used only for assets and not required

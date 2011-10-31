@@ -8,7 +8,6 @@ body {
 
 header {
 	padding-top: 20px;
-	display: inline;
 }
 
 header img {
@@ -19,13 +18,14 @@ header img {
 section {
 	margin-top: 1em;
 	font-size: 120%;
-	padding: 20px;
+	padding: 20px; 
 	background: #fff;
 }
 
 section h1 {
 	font-size: 200%;
 }
+
 
 /* Links */
 
@@ -51,7 +51,7 @@ nav {
 
 nav {
 	background-color: white;
-	padding: 0 0.7em;
+/*	padding: 0 0.7em; */
 	white-space: nowrap;
 }
 
@@ -67,7 +67,7 @@ nav ul li {
 }
 
 nav ul li a {
-	padding: 0 5px;
+	padding: 0 7px;
 	font-weight: bold;
 }
 
@@ -100,16 +100,40 @@ a.signup_button {
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
+	margin: 0 10px 0 0;
 }
 
 footer {
 	text-align: center;
 	margin-top: 10px;
-	width: 710px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 footer nav {
 	float: none;
+}
+
+/* user show page */
+
+table.profile {
+	width: 100%;
+	margin-bottom: 0;
+}
+
+td.main {
+	width: 70%;
+	padding: 1em;
+}
+
+td.sidebar {
+	width: 30%;
+	padding: 1em;
+	vertical-align: top;
+	background: #ffc;
+}
+
+.profile img.gravatar {
+	border: 1px solid #999;
+	margin-bottom: -15px;
 }
